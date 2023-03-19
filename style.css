@@ -1,0 +1,52 @@
+#content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px repeat(4,1fr);
+    grid-template-rows: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#grad1 {
+    height: 200px;
+    background-color: black; 
+    background-image: linear-gradient(black, gray);
+}
+
+a {
+    padding-left: 10px;
+}
+
+article {
+    grid-column: 2/6;
+    padding-bottom: 15px;
+}
+
+article p {
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 0px 15px 0px 15px;
+    color: white;
+}
+
+header, article, footer {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+table th, td {
+    text-align: left;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    nav {
+        grid-row: 2/7;
+    }
+    footer {
+        grid-row: 7/7;
+    }
+    footer img {
+        display: none;
+    }
+}
