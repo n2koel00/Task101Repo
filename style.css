@@ -6,12 +6,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#grad1 {
-    height: 200px;
-    background-color: black; 
-    background-image: linear-gradient(black, gray);
-}
-
 a {
     padding-left: 10px;
 }
@@ -25,7 +19,6 @@ article p {
     text-align: justify;
     font-size: 1.2em;
     padding: 0px 15px 0px 15px;
-    color: white;
 }
 
 header, article, footer {
